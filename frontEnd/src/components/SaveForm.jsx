@@ -103,7 +103,11 @@ const SaveForm = () => {
 
   return (
     <div className='container mx-auto pb-20'>
-      <div className=''>
+      <div>
+        <div className='flex font-bold text-2xl items-center justify-center font-mono'>
+          {updateId ? <h1>Edit Profile</h1> : <h1>Registration</h1>}
+        </div>
+
         <div className='mb-4'>
           <label className='block text-gray-700 text-sm font-bold mb-2'>
             First Name:

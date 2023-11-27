@@ -30,8 +30,11 @@ const StudentList = () => {
     return <Loader />;
   } else {
     return (
-      <div className='pb-10'>
-        <div className='overflow-x-auto'>
+      <div className='h-screen'>
+        <div className='overflow-x-auto '>
+          <h1 className='flex items-center justify-center font-mono font-bold pb-3 text-3xl text-[#000000]'>
+            Students List
+          </h1>
           <table className='table'>
             <thead>
               <tr>

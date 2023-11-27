@@ -5,7 +5,9 @@ const AppNavbar = () => {
   return (
     <div className='pb-9'>
       <div className='navbar  bg-neutral text-white gap-5'>
-        <button className='btn btn-ghost text-2xl'>Student Addmission</button>
+        <NavLink to='/' className='btn btn-ghost text-2xl'>
+          Student Addmission
+        </NavLink>
         <NavLink className='text-neutral-content font-bold' to='/'>
           Students List
         </NavLink>
